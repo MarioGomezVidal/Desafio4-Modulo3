@@ -1,0 +1,60 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 16px  16px 16px 16px;
+    width: 272px;
+    
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    
+    border-color: #000000;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-body{
+    background-color: #fffcfc;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.card-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px; 
+    padding: 0px; 
+    text-align: center;
+     
+}
+.card-text{
+    line-height: 1;
+    margin: 10px 0px 0px 0px; 
+    font-size: 17px;
+    color: #000000;
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    
+}
+
+.grilla-departamentos{
+            display: grid;
+            padding: 20px;
+            grid-template-columns: repeat(3, auto);
+            justify-items: center;
+            
+        }
+
