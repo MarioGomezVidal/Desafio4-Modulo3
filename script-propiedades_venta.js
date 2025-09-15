@@ -70,7 +70,7 @@ for (el of propiedades_venta){
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><i class="fas fa-map-marker-alt"></i> ${el.ubicacion}</li>
-    <li class="list-group-item"><i class="fas fa-bed"></i> ${el.habitaciones}</li>
+    <li class="list-group-item"><i class="fas fa-bed"></i> ${el.habitaciones} Habitaciones</li>
     <li class="list-group-item">$ ${el.costo}</li>
     <li class="list-group-item">${el.smoke == false ? '<i class="fas fa-smoking-ban"></i> No se permite fumar' : '<i class="fas fa-smoking"></i> Permitido fumar'}</li>
     <li class="list-group-item">${el.pets == false ? '<i class="fa-solid fa-ban"></i> No se permiten mascotas' : '<i class="fas fa-paw"></i> Mascotas permitidas'}</li>

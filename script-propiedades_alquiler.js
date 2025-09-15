@@ -72,7 +72,7 @@ for (el1 of propiedades_alquiler){
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><i class="fas fa-map-marker-alt"></i> ${el1.ubicacion}</li>
-    <li class="list-group-item"><i class="fas fa-bed"></i> ${el1.habitaciones}</li>
+    <li class="list-group-item"><i class="fas fa-bed"></i> ${el1.habitaciones} Habitaciones</li>
     <li class="list-group-item">$ ${el1.costo}</li>
     <li class="list-group-item">${el1.smoke == false ? '<i class="fas fa-smoking-ban"></i> No se permite fumar' : '<i class="fas fa-smoking"></i> Permitido fumar'}</li>
     <li class="list-group-item">${el1.pets == false ? '<i class="fa-solid fa-ban"></i> No se permiten mascotas' : '<i class="fas fa-paw"></i> Mascotas permitidas'}</li>
